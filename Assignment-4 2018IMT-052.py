@@ -20,7 +20,6 @@ df.head()
 
 df.describe()
 
-"""## Visualizing the Data"""
 
 plt.scatter(df['population'],df['profit'])
 plt.title("Profit Vs Population")
@@ -128,7 +127,3 @@ fig = go.Figure(data=go.Contour(
 ))
 
 fig.show()
-
-# x -> Value of the cost function
-# y -> Learning rates
-# z -> The value of the cost function at a given learning rate alpha
